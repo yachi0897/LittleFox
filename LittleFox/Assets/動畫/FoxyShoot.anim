@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Foxy
+  m_Name: FoxyShoot
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: c250a5072279bd645a52a6d9e6b5cd42, type: 3}
+      value: {fileID: 21300000, guid: 49620086f9502044ba4c09c9ac9d2e14, type: 3}
     - time: 0.125
-      value: {fileID: 21300000, guid: c2dd8db29b1c7244ca2b2ffcbb4a45ec, type: 3}
+      value: {fileID: 21300000, guid: 9904828334e29ff4c9e745c0ddb31135, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 0c40640a498382d49964f3b646348e78, type: 3}
+    - time: 0.375
+      value: {fileID: 21300000, guid: b871beff2b5bf0849a027fb8d1284502, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,14 +46,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: c250a5072279bd645a52a6d9e6b5cd42, type: 3}
-    - {fileID: 21300000, guid: c2dd8db29b1c7244ca2b2ffcbb4a45ec, type: 3}
+    - {fileID: 21300000, guid: 49620086f9502044ba4c09c9ac9d2e14, type: 3}
+    - {fileID: 21300000, guid: 9904828334e29ff4c9e745c0ddb31135, type: 3}
+    - {fileID: 21300000, guid: 0c40640a498382d49964f3b646348e78, type: 3}
+    - {fileID: 21300000, guid: b871beff2b5bf0849a027fb8d1284502, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.25
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
