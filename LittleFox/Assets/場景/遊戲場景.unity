@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 82182600}
   - component: {fileID: 82182602}
   - component: {fileID: 82182601}
+  - component: {fileID: 82182603}
   m_Layer: 0
   m_Name: Monster_-1
   m_TagString: Untagged
@@ -233,7 +234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82182599}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.58, y: -0.48, z: -23.640238}
+  m_LocalPosition: {x: 5.81, y: -0.54, z: -23.640238}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -312,6 +313,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &82182603
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82182599}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.6}
+  m_Size: {x: 8, y: 11.9}
+  m_Direction: 1
 --- !u!1 &247335580
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +507,8 @@ GameObject:
   - component: {fileID: 393701731}
   - component: {fileID: 393701730}
   - component: {fileID: 393701729}
+  - component: {fileID: 393701733}
+  - component: {fileID: 393701732}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -584,6 +603,43 @@ Transform:
   m_Father: {fileID: 1153075122}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &393701732
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393701728}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.21, y: 0}
+  m_Size: {x: 8.22, y: 6.55}
+  m_Direction: 1
+--- !u!50 &393701733
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393701728}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,6 +1574,7 @@ GameObject:
   - component: {fileID: 1301407255}
   - component: {fileID: 1301407257}
   - component: {fileID: 1301407256}
+  - component: {fileID: 1301407258}
   m_Layer: 0
   m_Name: "\u98DB\u5F48-1"
   m_TagString: Untagged
@@ -1612,6 +1669,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1301407258
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301407254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.7, y: 0.38}
+  m_Direction: 1
 --- !u!1 &1399759256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,6 +1932,7 @@ GameObject:
   - component: {fileID: 1570376372}
   - component: {fileID: 1570376374}
   - component: {fileID: 1570376373}
+  - component: {fileID: 1570376375}
   m_Layer: 0
   m_Name: "\u72D0\u72F8\u7832-1"
   m_TagString: Untagged
@@ -1953,6 +2027,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1570376375
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570376371}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 2.06, y: 0.86}
+  m_Direction: 1
 --- !u!1 &1709611893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2234,6 +2324,7 @@ GameObject:
   - component: {fileID: 1825863737}
   - component: {fileID: 1825863739}
   - component: {fileID: 1825863738}
+  - component: {fileID: 1825863740}
   m_Layer: 0
   m_Name: UE-1
   m_TagString: Untagged
@@ -2249,7 +2340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825863736}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.21, y: 3.63, z: -23.640238}
+  m_LocalPosition: {x: 2.56, y: 2.73, z: -23.640238}
   m_LocalScale: {x: 0.5003, y: 0.5003, z: 0.5003}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2328,6 +2419,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1825863740
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825863736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.36}
+  m_Size: {x: 7.76, y: 2.99}
+  m_Direction: 1
 --- !u!1 &1889767224
 GameObject:
   m_ObjectHideFlags: 0
