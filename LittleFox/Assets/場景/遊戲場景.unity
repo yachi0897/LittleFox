@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 454927707}
   - component: {fileID: 454927706}
   - component: {fileID: 454927708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u72D0\u72F8\u99D5\u99DB-1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2195,7 +2195,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6027540563663159751, guid: 1f2743e36bdcb0c4288b8f9de722dd49, type: 3}
       propertyPath: m_Name
-      value: Monster_-1
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027540563663159751, guid: 1f2743e36bdcb0c4288b8f9de722dd49, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6027540563663159752, guid: 1f2743e36bdcb0c4288b8f9de722dd49, type: 3}
       propertyPath: m_RootOrder
