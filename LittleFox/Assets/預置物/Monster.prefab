@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6027540563663159757}
   - component: {fileID: 6027540563663159756}
   - component: {fileID: 6027540563663159758}
+  - component: {fileID: 7490119588409058341}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -163,6 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabBullet: {fileID: 6027540563663159751}
   pointSpawn: {fileID: 6027540564176652107}
+  soundFire: {fileID: 8300000, guid: a6e92d91ccef7fe458bfa6aa5e16c8a7, type: 3}
   interval: 3
 --- !u!50 &6027540563663159758
 Rigidbody2D:
@@ -185,6 +187,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7490119588409058341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027540563663159751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2382519582583ef4fb51b86fd2bb9864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTarget: "\u72D0\u72F8\u7832"
+  prefabExplosion: {fileID: 7825028270283437603, guid: ec6bbf0540c93cc40a67cf993adeba7a, type: 3}
+  soundHit: {fileID: 8300000, guid: 49afe9e2828e50648820cf6c2eca0fbf, type: 3}
+  soundExplosion: {fileID: 8300000, guid: 78c8396ccdeac74488a78ff4b6c36c9f, type: 3}
 --- !u!1 &6027540564176652106
 GameObject:
   m_ObjectHideFlags: 0
